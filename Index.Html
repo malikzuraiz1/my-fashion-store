@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Fashion - Clothing for All</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 15px 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #444;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1521334884684-d80222895322') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .category {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .category:hover {
+      transform: translateY(-5px);
+    }
+
+    .category img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Luxury Fashion</h1>
+    <p>Men | Women | Boys | Girls | Kids</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">Boys</a>
+    <a href="#">Girls</a>
+    <a href="#">Kids</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Discover Your Style</h2>
+    <p>Luxury Fashion for Every Age & Style</p>
+  </section>
+
+  <section class="section">
+    <h3>Shop by Category</h3>
+    <div class="categories">
+      <div class="category">
+        <img src="https://source.unsplash.com/250x150/?men,fashion" alt="Men">
+        <h4>Men</h4>
+      </div>
+      <div class="category">
+        <img src="https://source.unsplash.com/250x150/?women,clothing" alt="Women">
+        <h4>Women</h4>
+      </div>
+      <div class="category">
+        <img src="https://source.unsplash.com/250x150/?boy,clothes" alt="Boys">
+        <h4>Boys</h4>
+      </div>
+      <div class="category">
+        <img src="https://source.unsplash.com/250x150/?girl,clothes" alt="Girls">
+        <h4>Girls</h4>
+      </div>
+      <div class="category">
+        <img src="https://source.unsplash.com/250x150/?kids,clothing" alt="Children">
+        <h4>Kids</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Luxury Fashion. All rights reserved.
+  </footer>
+
+</body>
+</html> 
